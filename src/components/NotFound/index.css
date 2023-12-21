@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.not-found-container-black {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #000000;
+}
+.not-found-img {
+  width: 250px;
+}
+.not-found-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 56px;
+  color: #000000;
+}
+.not-found-heading-black {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 56px;
+  color: #ffffff;
+}
+@media (min-width: 576px) {
+  .not-found-heading {
+    font-size: 48px;
+  }
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 56px;
+  color: #000000;
+}
+
+@media (min-width: 576px) {
+  .not-found-heading {
+    font-size: 48px;
+  }
+}
+.not-found-paragraph {
+  color: #000000;
+}
+.not-found-paragraph-black {
+  color: #ffffff;
+}
